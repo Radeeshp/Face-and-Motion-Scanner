@@ -21,5 +21,13 @@ A python and computer vision project to detect faces and motion and store the fa
 ## Project Structure:
         -Cascade Files
         -Facescanner.py
-## Facescanner.py:
-    
+### Facescanner.py:
+
+### Imports Used: 
+      
+### Built In Functions Used:
+
+### def Facescanner():
+
+## References:
+ 
