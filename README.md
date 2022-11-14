@@ -24,10 +24,16 @@ A python and computer vision project to detect faces and motion and store the fa
 ### Facescanner.py:
 
 ### Imports Used: 
+        -import cv2
       
 ### Built In Functions Used:
-
+        -cv2.contourArea(contours)
+        -cv2.boundingRect(contours)
+        -cv2.rectangle(frame,(x,y),(x+w,y+h),(0,55,55),2)
+        -cv2.imwrite("frame%d.jpg" % i, frame)
 ### def Facescanner():
 
 ## References:
- 
+      -Google 
+      -pyimagesearch
+      -OpenCv
