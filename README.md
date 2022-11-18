@@ -35,8 +35,7 @@ A python and computer vision project to detect faces and motion and store the fa
         
         
 #### Activity Diagram:
-
-![1_page-0001 (1)](https://user-images.githubusercontent.com/82216452/202774705-88925f3b-f034-459c-8605-847255fedcc5.jpg)
+![1_page-0001 (1)](https://user-images.githubusercontent.com/82216452/202778989-b326eff1-2023-4144-93e7-b0b181a48f71.jpg)
 
         
 
