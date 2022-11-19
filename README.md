@@ -29,8 +29,9 @@ A python and computer vision project to detect faces and motion and store the fa
         -Then the image is cleaned and motion is detected.
         -When motion is detected we save the first few frames and then we check 
         to see if we can detect a face or any parts of the face. 
-        -When a face or part of the face (eye,ear,nose) is detected we save the image frame 
-        in a location given by the user.
+        -When a face or part of the face (ear) is detected we save the image frame 
+        (We are detecting the ear also as we ahve to be able to detect the face even if 
+        the face is not straight) in a location given by the user.
         -The frame is saved with the time it was taken.
         
         
@@ -47,7 +48,23 @@ A python and computer vision project to detect faces and motion and store the fa
         -cv2.boundingRect(contours)
         -cv2.rectangle(frame,(x,y),(x+w,y+h),(0,55,55),2)
         -cv2.imwrite("frame%d.jpg" % i, frame)
+        -cv2.imshow()
+        -cv2.dilate()
+        -cv2.findContours()
+        -cv2.CascadeClassifier()
+        -faceCascade.detectMultiScale()
+        -cv2.cvtColor()
+        -video_capture.release()
+        -cv2.GaussianBlur()
+        -cv2.destroyAllWindows()
 #### def Facescanner():
+        -This is a user defined function thats used to find whether there is any motion and or faces in the image
+        -We detect motion using background subtraction
+        -When motion has been detected we try to detect face or parts of the faces 
+        -if thereare face faces or parts of the face detected we return true 
+##### Activity Diagram:
+![j_page-0001](https://user-images.githubusercontent.com/82216452/202834565-a9205830-74d9-492a-ac07-39a06e12cf4f.jpg)
+
 
 ## References:
       -Google 
