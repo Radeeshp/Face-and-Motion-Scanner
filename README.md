@@ -3,8 +3,13 @@
 A python and computer vision project to detect faces and motion and store the faces that have been detected
 
 ## Problem Statement:
-      Generally when someone wants to review a footage and needs to find who  and when someone went past a camera(Security Camera) 
-      they have to review the hole footage but using this project they can simplify this process . 
+      Generally when someone wants to review a footage and needs to find who  
+      and when someone went past a camera(Security Camera) they have to review the 
+      whole footage but using this project they can simplify this process.
+      
+      All they would have to do is upload the video file or give the video  file's 
+      location and they would get the photos of all  the faces that entered the frame
+      it would also show the first few image frames when some motion is detected.
 ## Requirements:
       -computer
       -python
