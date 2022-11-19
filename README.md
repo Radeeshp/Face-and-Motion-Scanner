@@ -68,7 +68,7 @@ A python and computer vision project to detect faces and motion and store the fa
         -When motion has been detected we try to detect face or parts of the faces 
         -if thereare face faces or parts of the face detected we return true 
 ##### Activity Diagram:
-![j_page-0001](https://user-images.githubusercontent.com/82216452/202834565-a9205830-74d9-492a-ac07-39a06e12cf4f.jpg)
+![kl_page-0001](https://user-images.githubusercontent.com/82216452/202844420-15aa7b93-d364-4499-9889-ac2055232955.jpg)
 
 
 ## References:
